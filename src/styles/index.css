@@ -1,0 +1,44 @@
+.app {
+    padding: 5%;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.app::before {
+    content: ' ';
+    display: inline-block;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    opacity: 0.8;
+    background-image: url('../assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.content {
+    position: relative;
+}
+.content h2{
+    font-weight: bold;
+    font-size: 28px;
+    color: #333;
+}
+
+.list-group {
+    opacity: 0.8;
+}
+
+.list-item {
+    display: inline-block;
+    color: #333;
+}
+
+.list-group-item span {
+    float: right;
+    cursor: pointer;
+}
